@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img.photo {
+  width: 290px;
+  height: 200px;
+
+  border: 2px solid rgb(224, 215, 221);
+  border-end-start-radius: revert;
+}
+.section_items {
+  box-sizing: border-box;
+  border: 2px solid rgb(233, 227, 227);
+  width: 300px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 10px;
+  top: 10px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.section_items:hover {
+  transform: scale(1.1);
+}
+.Btn {
+  width: 1500px;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+.Btn1 {
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(226, 70, 13);
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Btn1:focus {
+  /* outline: 0;
+  box-shadow: 0 0 0 0.2rem #eb984e; */
+  border-bottom: 2px solid #61dafb;
+}
+.Btn1:focus {
+  outline: none;
+  box-shadow: none;
+}
+.deletBtn {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  color: rgb(64, 64, 211);
+}
+.deletBtn:hover {
+  background-color: antiquewhite;
+}
